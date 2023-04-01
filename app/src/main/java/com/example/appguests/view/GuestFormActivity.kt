@@ -1,12 +1,12 @@
-package com.example.appguests
+package com.example.appguests.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import androidx.lifecycle.ViewModelProvider
+import com.example.appguests.R
 import com.example.appguests.databinding.ActivityGuestFormBinding
-import com.example.appguests.databinding.FragmentAbsentBinding
+import com.example.appguests.viewmodel.GuestFormViewModel
 
 class GuestFormActivity : AppCompatActivity(), View.OnClickListener {
 
