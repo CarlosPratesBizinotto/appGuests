@@ -1,5 +1,6 @@
 package com.example.appguests.repository
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.content.Context
 import com.example.appguests.constants.DataBaseConstants
@@ -91,6 +92,7 @@ class GuestRepository private constructor(context: Context) {
 
     }
 
+    @SuppressLint("Range")
     fun getALL(): List<GuestModel> {
 
         val list = mutableListOf<GuestModel>()
