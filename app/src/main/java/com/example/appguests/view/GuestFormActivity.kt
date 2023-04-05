@@ -3,9 +3,13 @@ package com.example.appguests.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.get
 import com.example.appguests.R
 import com.example.appguests.databinding.ActivityGuestFormBinding
+import com.example.appguests.databinding.ActivityMainBinding
 import com.example.appguests.model.GuestModel
 import com.example.appguests.viewmodel.GuestFormViewModel
 
